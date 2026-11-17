@@ -1,0 +1,20 @@
+[project]
+name = "desktop-cleaner"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "s-mahapule", email = "shafiamahapule@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+desktop-cleaner = "desktop_cleaner:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
