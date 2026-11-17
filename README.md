@@ -80,18 +80,27 @@ test_desktop/
 ```text
 desktop-cleaner/
 │
+├── src/
+│   └── desktop_cleaner/
+│       └── __init__.py
+│
+├── test_desktop/
+│   ├── Code/
+│   ├── Documents/
+│   ├── Images/
+│   ├── Others/
+│   ├── Videos/
+│   ├── sample.py
+│   ├── sample.txt
+│   └── sample.xyz
+│
 ├── main.py
-├── README.md
+├── pyproject.toml
+├── uv.lock
+├── .python-version
 ├── .gitignore
-└── test_desktop/
-    ├── Code/
-    ├── Documents/
-    ├── Images/
-    ├── Videos/
-    ├── Others/
-    ├── sample.py
-    ├── sample.txt
-    └── sample.xyz
+├── desktop-cleaner.code-workspace
+└── README.md
 ```
 
 ## ⚠️ Safety Notes
